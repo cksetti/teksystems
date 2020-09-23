@@ -31,6 +31,7 @@ export class App extends Component {
       // fragment it does not add extra div in the UI
       <>
         <div>
+          <h1>TekSystems Assessment</h1>
           <div>Enter Country Name</div>
           <input onChange={this.handleChange}></input>
           <button onClick={this.handleSubmit}>submit</button>
